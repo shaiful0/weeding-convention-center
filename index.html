@@ -13,6 +13,8 @@
   <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet"> -->
+<!-- External css -->
+<link rel="stylesheet" href="/css/index.css">
 </head>
 <body>
   <!-- Header part -->
@@ -144,7 +146,9 @@
             </div>
           </div>
           <div class="col rounded-3 bg-primary">
-            <button class="btn btn-danger rounded-pill">Hot</button>
+            <button type="button" class="btn btn-primary position-relative">
+               <span class="position-absolute top-0 start-100 translate-middle badge border border-light rounded-circle bg-danger p-3">Hot</span>
+            </button>
             <div class=" h-100">
               <div class="card-body">
                 <h1 class="card-title">$800</h1>
@@ -252,6 +256,19 @@
      </div>
   
   </main>
+
+  <footer class="container-footer my-5 ">
+    <div class="">
+      <p class="ms-5">©2020 bike. All rights reserved</p>
+    </div>
+    <div class=" de-flex me-5">
+      <p class="ms-3">Get the App</p>
+      <a href="https://apps.apple.com/us/app/8-ball-pool/id543186831" target="blank"><img src="icons/app-store.png" alt=""></a>
+      <br>
+      
+      <a href="https://play.google.com/store/apps/details?id=com.miniclip.eightballpool&hl=en&gl=US" target="blank"><img src="icons/google-play.png" alt=""></a>
+    </div>
+  </footer>
 
   <!-- Js Link  -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
